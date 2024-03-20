@@ -8,7 +8,7 @@
 
 ## Features
 -SUMO based, enabling realistic vehicle dynamics and analysing platooning maneuvers
-![11alt](https://github.com/CAV-ers/CAV-ers/blob/main/Figures/platooing.gif "platooning simulation")
+![alt](https://github.com/CAV-ers/CAV-ers/blob/main/Figures/platooing.gif "platooning simulation")
 
 -Motion plannning senerios based on convertion of wiled-used datasets(HighD, InD, Round...)
 ![](https://github.com/CAV-ers/CAV-ers/blob/main/Figures/highD%20convertion.gif)
