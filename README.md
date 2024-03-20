@@ -1,5 +1,9 @@
 - 👋 Hi, I’m @CAVers
-- 👀 I’m currently focus on an open-source platform for Connected Automated Vehicles(CAVs) 
+- 👀 I’m currently focus on an open-source platform CAVers for Connected Automated Vehicles(CAVs)
+  
+![](https://github.com/CAV-ers/CAV-ers/blob/main/platooing.gif)
+
+![](https://github.com/CAV-ers/CAV-ers/blob/main/Figures/highD%20convertion.gif)
 
 
 <!---
