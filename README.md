@@ -6,7 +6,7 @@
   
 ## Architecture
 -The architecture of CAVers is shown in the following diagram, here, we divide this program into many layers (traffic generation, communication & perception, planning & behavior, control & dynamics, which is consistent with many current popular studies and has the potential to help researchers who only study part of the layers.
-![alt]()
+![alt](https://github.com/CAV-ers/CAV-ers/blob/main/Figures/Architecture.svg)
 
 ## Features
 -SUMO based, enabling realistic vehicle dynamics and analysing platooning maneuvers
