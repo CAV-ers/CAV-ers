@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-04-09 13:47:16 by Eclipse SUMO netedit Version 1.16.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <sumocfg-file value="C:\Program Files (x86)\Sumo\test\hello.sumocfg"/>
+        <route-files value="C:\Program Files (x86)\Sumo\test\hello.rou.xml"/>
+        <sumo-net-file value="C:\Program Files (x86)\Sumo\test\hello.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="C:\Program Files (x86)\Sumo\test\hello.net.xml"/>
+    </output>
+
+    <processing>
+        <offset.disable-normalization value="true"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+    </junctions>
+
+    <netedit>
+        <new-network value="false"/>
+    </netedit>
+
+</configuration>
+-->
+
+<net version="1.16" junctionCornerDetail="5" limitTurnSpeed="5.50" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/net_file.xsd">
+
+    <location netOffset="0.00,0.00" convBoundary="-10.17,60.93,113.56,62.12" origBoundary="10000000000.00,10000000000.00,-10000000000.00,-10000000000.00" projParameter="!"/>
+
+    <edge id=":n2_0" function="internal">
+        <lane id=":n2_0_0" index="0" speed="13.89" length="0.26" shape="49.03,60.52 49.30,60.52"/>
+    </edge>
+
+    <edge id="1to2" from="n1" to="n2" priority="-1">
+        <lane id="1to2_0" index="0" speed="13.89" length="59.18" shape="-10.14,59.33 49.03,60.52"/>
+    </edge>
+    <edge id="2to3" from="n2" to="n3" priority="-1">
+        <lane id="2to3_0" index="0" speed="13.89" length="64.25" shape="49.30,60.52 113.55,60.09"/>
+    </edge>
+
+    <junction id="n1" type="dead_end" x="-10.17" y="60.93" incLanes="" intLanes="" shape="-10.17,60.93 -10.11,57.73"/>
+    <junction id="n2" type="priority" x="49.15" y="62.12" incLanes="1to2_0" intLanes=":n2_0_0" shape="49.31,62.12 49.29,58.92 49.06,58.92 49.00,62.12">
+        <request index="0" response="0" foes="0" cont="0"/>
+    </junction>
+    <junction id="n3" type="dead_end" x="113.56" y="61.69" incLanes="2to3_0" intLanes="" shape="113.54,58.49 113.56,61.69"/>
+
+    <connection from="1to2" to="2to3" fromLane="0" toLane="0" via=":n2_0_0" dir="s" state="M"/>
+
+    <connection from=":n2_0" to="2to3" fromLane="0" toLane="0" dir="s" state="M"/>
+
+</net>

@@ -1,0 +1,7 @@
+mingwenv.cmd
+
+source setenv
+./configure
+make -j88
+
+omnetpp

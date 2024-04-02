@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-03-23 14:25:31 by Eclipse SUMO netconvert Version 1.16.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <node-files value="./../hello\out.nod.xml"/>
+        <edge-files value="./../hello\out.edg.xml"/>
+    </input>
+
+    <output>
+        <output-file value="./../hello\out.net.xml"/>
+    </output>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+    </junctions>
+
+</configuration>
+-->
+
+<net version="1.16" junctionCornerDetail="5" limitTurnSpeed="5.50" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/net_file.xsd">
+
+    <location netOffset="100.00,0.00" convBoundary="0.00,0.00,614.62,0.00" origBoundary="-100.00,0.00,514.62,0.00" projParameter="!"/>
+
+    <edge id="e_0" from="n_0" to="n_1" priority="1">
+        <lane id="e_0_0" index="0" speed="100.00" length="614.62" shape="0.00,-11.20 614.62,-11.20"/>
+        <lane id="e_0_1" index="1" speed="100.00" length="614.62" shape="0.00,-8.00 614.62,-8.00"/>
+        <lane id="e_0_2" index="2" speed="100.00" length="614.62" shape="0.00,-4.80 614.62,-4.80"/>
+        <lane id="e_0_3" index="3" speed="100.00" length="614.62" shape="0.00,-1.60 614.62,-1.60"/>
+    </edge>
+    <edge id="e_1" from="n_1" to="n_0" priority="1">
+        <lane id="e_1_0" index="0" speed="100.00" length="614.62" shape="614.62,11.20 0.00,11.20"/>
+        <lane id="e_1_1" index="1" speed="100.00" length="614.62" shape="614.62,8.00 0.00,8.00"/>
+        <lane id="e_1_2" index="2" speed="100.00" length="614.62" shape="614.62,4.80 0.00,4.80"/>
+        <lane id="e_1_3" index="3" speed="100.00" length="614.62" shape="614.62,1.60 0.00,1.60"/>
+    </edge>
+
+    <junction id="n_0" type="dead_end" x="0.00" y="0.00" incLanes="e_1_0 e_1_1 e_1_2 e_1_3" intLanes="" shape="0.00,0.00 0.00,12.80 0.00,0.00"/>
+    <junction id="n_1" type="dead_end" x="614.62" y="0.00" incLanes="e_0_0 e_0_1 e_0_2 e_0_3" intLanes="" shape="614.62,0.00 614.62,-12.80 614.62,0.00"/>
+
+</net>

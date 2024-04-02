@@ -1,0 +1,8 @@
+**/build
+**/__pycache__
+**/dist
+*.spec
+URL
+Changelog.txt
+highD-dataset-script
+data
