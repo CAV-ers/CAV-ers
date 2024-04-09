@@ -1,0 +1,42 @@
+syntax = "proto3";
+package pb;
+
+// Note: req & resp
+// PV : python-2-veins-msg
+// VP : veins-2-python-msg
+
+// get vehicle's info
+message PV_GetVehicle{
+    string id = 1; // vehicle id
+}
+
+message VP_GetVehicle {
+    VehicleInfo info = 1;
+}
+
+// get neigbours info of vehicle x
+message PV_GetNeigbours{
+    string id = 1;
+}
+
+message VP_GetNeigbours{
+    string id = 1;// who's neigbours
+    repeated Neigbour neigbours = 2;
+}
+
+message Neigbour{
+    VehicleInfo info = 1;
+    bool is_forward = 2;
+    bool is_same_direction = 3;
+}
+
+message VehicleInfo{
+    int32 id = 1;
+    double x = 2;
+    double y = 3;
+    double z = 4;
+    double speed_x = 5;
+    double speed_y = 6;
+    double speed_z = 7;
+    double heading = 8;
+}
