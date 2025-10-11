@@ -15,10 +15,16 @@
 ![alt](https://github.com/CAV-ers/CAV-ers/blob/main/Figures/highD%20convertion.gif)
 
 ## Contact
-- The program is mainly developed by Dr.Di Liu and Mr.Kang Yang, for any suggestions and further informations, please contact (liud923@126.com, kangyangedu@foxmail.com).
+- The program is mainly developed by Mr.Kang Yang, Mr. Qipeng Xie, Dr.Di Liu and Dr. Simone Baldi , for any suggestions and further informations, please contact (kangyang@seu.edu.cn, danvilig@outlook.com, liud923@126.com, simonebaldi@seu.edu.cn).
 - As the program is still under development, more features will be presented in future.
   
 ## Reference
+K. Yang, D. Liu, S. Baldi, C. Lv (2025); Personalized Car-following Shared Control with Group-oriented Traffic Smoothing; IEEE Internet of Things Journal.
+
+K. Yang, D. Liu, S. Baldi, C. Lv (2024); On Practical Implementations of Connected Vehicles: The Issue of Acceleration Feedback; IEEE Transactions on Intelligent Transportation Systems.
+
+K. Yang, D. Liu, S. Baldi, W. Yu, C. Lv (2024); Decoupling-based Resilient Control of Vehicular Platoons under Injection of False Wireless Data;  IEEE Transactions on Intelligent Transportation Systems. 
+
 D. Liu, B. Besselink, S. Baldi, W. Yu, H. L. Trentelman (2024), “Reachability approach to string stability and safety in mixed platoons”, IEEE Transactions on Automatic Control.
 
 D. Liu, B. Besselink, S. Baldi, W. Yu, H. L. Trentelman (2023), “On structural and safety properties of head-to-tail string stability of mixed platoons”, IEEE Transactions on Intelligent Transportation Systems, Vol 24(6), pp. 6614 - 6626.
